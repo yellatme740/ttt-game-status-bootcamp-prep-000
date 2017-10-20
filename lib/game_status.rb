@@ -44,5 +44,8 @@ end
 #   end
 # end
 
-def full?
+def full?(board)
+  board.all? do |position|
+    position == "X" || position == "O"
+  end
 end
