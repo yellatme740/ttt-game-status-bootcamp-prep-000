@@ -66,5 +66,6 @@ def winner(board)
   if winner_token == "X"
     return "X"
   else winner_token == "O"
-    return ")"
+    return "O"
+  end
 end
